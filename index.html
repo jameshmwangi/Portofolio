@@ -1,147 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,200;0,300;1,100&family=Saira:wght@100&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
-    <title>DevJames-K Portofolio</title>
-    <link rel="stylesheet" href="css\stylesheet.css">
+<title>DevJames-K Portofolio</title>
+<link rel="stylesheet" href="css\stylesheet.css">
 
-    <script src="https://kit.fontawesome.com/ca63159118.js" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/ca63159118.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <header> 
+<header> 
 
-        <div class="logo">
-           
-            <p>Logo</p>
+    <div class="logo">
+
+        <p>Logo</p>
+    </div>
+
+    <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link"> Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link"> My Blog</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link"> About me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link"> My Work</a></li> 
+            </ul>
+    </nav>
+</header>
+<div>
+ <!-- Karibu Nitatumia Kiswahili Kunukuu -->
+ <section class="intro" id="home">
+    <h1 class="section__title section__title--intro" id="greet">
+        Hi, I am <em>Kamau-James</em> 
+
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img id="img" src="images\IMG_20210309_130036.jpg" alt="A Picture of me" class="intro__img">
+</section>
+
+  <!-- Nini Ninachoweza -->
+  <section class="my-services" id="services">
+    <h2 class="section__title section__title--services">My Blog</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Dev Community </h3>
+            <p id="para1">Dev community are great ways to help each other grow in the field of technology.Getting a mentor can be an uphill task, but not when you are in a community.
+            Though exposure you are able to enlighten yourself in this ever dynamic field of tech.</p>
+
+
         </div>
 
-        <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link"> Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link"> My Blog</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link"> About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link"> My Work</a></li> 
-                </ul>
-        </nav>
-    </header>
-    <div>
-     <!-- Karibu Nitatumia Kiswahili Kunukuu -->
-     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro" id="greet">
-            Hi, I am <em>Kamau-James</em> 
-        
-        </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-        <img id="img" src="images\IMG_20210309_130036.jpg" alt="A Picture of me" class="intro__img">
-    </section>
-    
-      <!-- Nini Ninachoweza -->
-      <section class="my-services" id="services">
-        <h2 class="section__title section__title--services">My Blog</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Dev Community </h3>
-                <p id="para1">I am passionate about developer communities. Communities gave me a chance to network and grow as a FrontEnd-Dev.
-                    I am a member of DSC JKUAT, MongoDB Nairobi and MSP JKUAT. My friends and I formed Kuku Empire Coding nights 
-                    which happen every friday. </p>
-                   
 
+        <div class="service">
+            <h3>Design & Image Editing </h3>
+            <p id="para2"> Designing by combining various elements to make one holistic product is what I cherish. <q>Charles Dickens may not have invented english but by combining English words he wrote one of the best books. </q> 
+                I use simple bits to break down complex problems and solve them. </p>
             </div>
-            
-            
-            <div class="service">
-                <h3>Design & Image Editing </h3>
-                <p id="para2"> Designing by combining various elements to make one holistic product is what I cherish. <q>Charles Dickens may not have invented english but by combining English words he wrote one of the best books. </q> 
-                    I use simple bits to break down complex problems and solve them. </p>
-                </div>
-            
-            <div class="service">
-                <h3> Coding+ Tech Stack.</h3>
-                <p id="para3"> I am proficient in Html5, intermediate knowledge on CSS and currently learning Javascript ES6.
-                    At school I have learnt Object Oriented programming using Java, Data Structues and Algorithms as key concepts in programming </p>
-            </div> <!-- / service -->
-        </div> <!-- / services -->
-        
-        <a href="#work" class="btn">My Work</a>
-    </section>
-    <section class="about-me" >
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p  id="para4"> 
-            James is an Undergraduate student at JKUAT undertaking <i>Mathematics and Computer Science</i>, now in my 3rd year. I live in Juja. Growing up I was surrounded by a loving family.
-            They have taught me that actions make a man and I should strive to go for my goals. 
-            I believe chance favours the prepared. Through this mantra I take 80% of time given in a task to prepare and 20% to implement.( Haha of course examination are an exception of this 80-20 time pracrise.)
-        </p>
-        
-        <div class="about-me__body">
-            <p id="para5">I am undertaking a <i>Front-end Boootcamp</i>  at <strong>Lux Tech Academy</strong> Tech Academy. Through this community I have been able to create my first complete web project.
 
-                 </p>
-                </div>
-        
-        
-     </section>
-     <!--My my-work -->
-     <section class="my-work" id="work">
-            <h3 class="section__title">My work</h3>
-            <p class="section__subtitle"></p>
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="https://munyivawrites.blogspot.com/" class="portfolio__item ">
-                     
-                    <img src="images\Munyiva-blog.png" alt=" Designing a blog" class="portfolio__img">
-                      <caption>Blog-Project</caption>
-                       
-                </a>
-                
-                  <a href="https://codepen.io/jameshmwangi/pen/zYNjXGE" class="portfolio__item ">
-                     
-                    <img src="images\Codepen-Project.png" alt="flexbox -responsive project " class="portfolio__img">
-                        <caption>Flexbox-Responsive Project</caption>
-                </a>
-                
-                 <a href="https://sweetnessoftravel.blogspot.com/" class="portfolio__item ">
-                     
-                    <img src="images\50+siteTraffick.png" alt="50 + site traffick with minimal content published" class="portfolio__img">
-                        <caption>This site got 67 reads on an article on 20th october 2020</caption>
-                </a>
-                
-                
-                
-                <a href="#" class ="portofolio_item">
-                    <img src="images\workInProgress.jpg" alt="" class="portfolio__img">
-                    <caption>New projects will appear here.</caption>
-                </a>
-                </div>
-                </section>
-                
-                 <p>When you click the button it will Translate this page into swahili</p>
-    <p id="para9">I am passionate about developer communities. Communities gave me a chance to network and grow as a FrontEnd-Dev  </p>
+        <div class="service">
+            <h3> Coding++ </h3>
+            <p id="para3"> I draw experience from various backgrounds I have interacted with as a mathematician, peer teacher , end user of technology and as a developer.
+                At school I have learnt Object Oriented programming using Java, Data Structues and Algorithms , funcions, methods ,string manipulation, etc. 
+                This basic concepts have come in handy ,reducing time I spend learning a new technology.</p>
+        </div> <!-- / service -->
+    </div> <!-- / services -->
+
+    <a href="#work" class="btn">My Work</a>
+</section>
+<section class="about-me" >
+    <h2 class="section__title section__title--about">About Me</h2>
+    <p  id="para4"> 
+        James is an Undergraduate student at JKUAT undertaking <i>Mathematics and Computer Science</i>, joining 4th year in 2022. I live in Juja.
+        When not writing code, I go to a gym, to meet up with friends. To  <strong>Hire me</strong>, reach out through the contacts at the bottom of this page   </p>
+
+    <div class="about-me__body">
+        <p id="para5">Through <i>Front-end Boootcamps and communities</i>  <strong>/strong> community I have been able to learn , share and build peer projects.
+
+
+             </p>
+            </div>
+
+
+ </section>
+ <!--My my-work -->
+ <section class="my-work" id="work">
+        <h3 class="section__title">My work--> Click to view</h3>
+
+        <p class="section__subtitle"></p>
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <a href="https://munyivawrites.blogspot.com/" class="portfolio__item ">
+                                     <img src="images\Munyiva-blog.png" alt=" Designing a blog" class="portfolio__img">
+                  <caption>Blog-Project</caption>
+
+            </a>
+
+              <a href="https://codepen.io/jameshmwangi/pen/zYNjXGE" class="portfolio__item ">
+
+                <img src="images\Codepen-Project.png" alt="flexbox -responsive project " class="portfolio__img">
+                    <caption>Flexbox-Responsive Project</caption>
+            </a>
+
+             <a href="https://sweetnessoftravel.blogspot.com/" class="portfolio__item ">
+
+                <img src="images\50+siteTraffick.png" alt="50 + site traffick with minimal content published" class="portfolio__img">
+                    <caption>This site got 67 reads on an article on 20th october 2020</caption>
+            </a>
+
+
+
+            <a href="#" class ="portofolio_item">
+                <img src="images\workInProgress.jpg" alt="" class="portfolio__img">
+                <caption>New projects will appear here.</caption>
+            </a>
+            </div>
+            </section>
+
+             <p>When you click the button it will Translate this page into swahili</p>
+<p id="para9">I am passionate about developer communities. Communities gave me a chance to network and grow as a FrontEnd-Dev  </p>
 
 <button onclick="change_text()" class="btn">Translate</button>
 </div>
-    <footer>
-        
-        <a href="mailto: jameshmwangiy@gmail.com" class="footer__link">jameshmwangiy@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/JameshQater"><i class="fab fa-twitter"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com/jameshmwangi">
-                <i class="fab fa-github"></i></a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://wa.me/+254729356946?text=Hello">
-                <i class="fab fa-whatsapp"></i></a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/james-mwangi-a89890195/"><i class="fab fa-linkedin"></i></a></li>
-        </ul>
-    </footer>
+<footer>
 
-    <script src="js/index.js"></script>
-    
+    <a href="mailto: jameshmwangiy@gmail.com" class="footer__link">jameshmwangiy@gmail.com</a>
+    <ul class="social-list">
+        <li class="social-list__item"><a class="social-list__link" href="https://twitter.com/JameshQater"><i class="fab fa-twitter"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://github.com/jameshmwangi">
+            <i class="fab fa-github"></i></a>
+        </li>
+        <li class="social-list__item"><a class="social-list__link" href="https://wa.me/+254729356946?text=Hello">
+            <i class="fab fa-whatsapp"></i></a></li>
+        <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/james-mwangi-a89890195/"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+</footer>
+
+<script src="js/index.js"></script>
+
 </body>
 </html>
