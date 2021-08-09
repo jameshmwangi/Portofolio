@@ -203,9 +203,9 @@ h3 {
 
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
-  transform: scale(1.2);
-  outline: 3px solid var(--clr-two);
-  outline-offset: 2px;
+  transform: scale(0.85);
+  outline: 2px solid var(--clr-two);
+  outline-offset: 1px;
 }
 
 footer {
